@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MS_TC01_CreateAnAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3bca4f74-21f6-4164-9eb8-b2d562a2a8b6</testCaseGuid>
+</TestCaseEntity>

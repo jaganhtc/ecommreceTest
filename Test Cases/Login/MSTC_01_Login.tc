@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MSTC_01_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12c6aa23-76ec-4fc5-9d3f-25f7cabf2ce8</testCaseGuid>
+</TestCaseEntity>

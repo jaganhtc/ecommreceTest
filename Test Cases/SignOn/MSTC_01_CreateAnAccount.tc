@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MSTC_01_CreateAnAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef7f77f3-763d-464b-ac9f-a3874e6762db</testCaseGuid>
+</TestCaseEntity>
