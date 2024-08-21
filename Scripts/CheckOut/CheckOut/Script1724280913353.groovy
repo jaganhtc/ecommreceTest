@@ -74,5 +74,3 @@ WebUI.click(findTestObject('Object Repository/CheckOut/Page_Success Page/button_
 
 WebUI.click(findTestObject('Object Repository/CheckOut/Page_Success Page/a_Sign Out'))
 
-WebUI.rightClick(findTestObject('Object Repository/CheckOut/Page_/span_You are signed out'))
-
