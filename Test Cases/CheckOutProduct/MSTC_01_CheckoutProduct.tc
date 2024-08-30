@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MSTC_01_CheckoutProduct</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e04fe8a-31fb-46e7-8b1d-f246787d8bf3</testCaseGuid>
+</TestCaseEntity>

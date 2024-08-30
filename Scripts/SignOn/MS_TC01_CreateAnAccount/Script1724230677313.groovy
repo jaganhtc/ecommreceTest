@@ -37,7 +37,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/SignOn/Page_Create New 
 
 WebUI.click(findTestObject('Object Repository/SignOn/Page_Create New Customer Account/labelCreate an Account'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/SignOn/Page_My Account/infoConfirmationMessage'), 
+WebUI.verifyElementText(findTestObject('Object Repository/SignOn/Page_My Account/labelMessage'), 
     'Thank you for registering with Main Website Store.')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/SignOn/Page_My Account/labelMyAccount'), 0)

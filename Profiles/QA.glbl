@@ -39,4 +39,34 @@
       <initValue>'Juno Jaket'</initValue>
       <name>productname</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.\r\n'</initValue>
+      <name>RegistrationFail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Thank you for registering with Main Website Store.'</initValue>
+      <name>regSuccess</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dhdkskshfksdhfkd'</initValue>
+      <name>invalidSearch</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your search returned no results.'</initValue>
+      <name>info</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You have no items to compare.'</initValue>
+      <name>noitemstocompare</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jacket'</initValue>
+      <name>productName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

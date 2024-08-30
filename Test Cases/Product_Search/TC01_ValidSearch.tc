@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_ValidSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eddb1ba3-597a-44a5-a9da-9b6d3f745aa5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>892e8b6d-224e-47e1-afdc-31a34d270608</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'jacket for men'</defaultValue>
+      <description></description>
+      <id>892e8b6d-224e-47e1-afdc-31a34d270608</id>
+      <masked>false</masked>
+      <name>product</name>
+   </variable>
+</TestCaseEntity>

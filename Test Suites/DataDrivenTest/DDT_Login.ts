@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DDT_Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>906d987a-4976-46c3-99c4-ad4cc723ef17</testSuiteGuid>
+   <testCaseLink>
+      <guid>c5863cc4-0b80-4ffc-ac6f-12ab58d3479a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/MSTC_01_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8ff841ac-cb01-4b48-b05f-021b304a9936</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/testdata/testData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8ff841ac-cb01-4b48-b05f-021b304a9936</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>b86f06a6-23e6-47c0-868d-a086fd92431a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ff841ac-cb01-4b48-b05f-021b304a9936</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pwd</value>
+         <variableId>acbfe500-157f-4ed9-9983-e5ff35b5cebd</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

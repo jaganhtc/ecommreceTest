@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_RemoveProductFromCart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>54466e25-01f5-4d12-901d-54141e15afc5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>abc6685c-26b8-4d76-9cfb-47364b3b9f1a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>375de315-625e-4ebf-8ef4-a0614ff800ee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Are you sure you would like to remove this item from the shopping cart?'</defaultValue>
+      <description></description>
+      <id>abc6685c-26b8-4d76-9cfb-47364b3b9f1a</id>
+      <masked>false</masked>
+      <name>alert</name>
+   </variable>
+   <variable>
+      <defaultValue>'You have no items in your shopping cart.'</defaultValue>
+      <description></description>
+      <id>375de315-625e-4ebf-8ef4-a0614ff800ee</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+</TestCaseEntity>

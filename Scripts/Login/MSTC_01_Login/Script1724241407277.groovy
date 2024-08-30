@@ -21,3 +21,5 @@ CustomKeywords.'magneto.demo.key.MagnetoDemoKey.openBrowser'(GlobalVariable.url)
 
 CustomKeywords.'magneto.demo.key.MagnetoDemoKey.Login'(GlobalVariable.email, GlobalVariable.password)
 
+
+

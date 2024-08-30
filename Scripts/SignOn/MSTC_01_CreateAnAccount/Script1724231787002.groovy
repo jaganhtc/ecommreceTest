@@ -20,9 +20,7 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'magneto.demo.key.MagnetoDemoKey.openBrowser'(GlobalVariable.url)
 
 CustomKeywords.'magneto.demo.key.MagnetoDemoKey.createAnAccount'(GlobalVariable.firstname, GlobalVariable.lastname, GlobalVariable.email, 
-    GlobalVariable.password, GlobalVariable.password)
-
-CustomKeywords.'magneto.demo.key.MagnetoDemoKey.validateAccountCreation'('')
+    GlobalVariable.password, GlobalVariable.password, message)
 
 CustomKeywords.'magneto.demo.key.MagnetoDemoKey.SignOut'()
 

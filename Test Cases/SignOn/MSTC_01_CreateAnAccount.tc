@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>ef7f77f3-763d-464b-ac9f-a3874e6762db</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e1b2764-c508-46f4-941e-4883f4438cd2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Thank you for registering with Main Website Store.'</defaultValue>
+      <description></description>
+      <id>0e1b2764-c508-46f4-941e-4883f4438cd2</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
 </TestCaseEntity>

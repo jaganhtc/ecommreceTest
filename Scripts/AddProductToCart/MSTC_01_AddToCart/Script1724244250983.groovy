@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/MSTC_01_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'magneto.demo.key.MagnetoDemoKey.addProducToCart'(GlobalVariable.productname)
+CustomKeywords.'magneto.demo.key.MagnetoDemoKey.addProducToCart'(product, info, addtocart)
 

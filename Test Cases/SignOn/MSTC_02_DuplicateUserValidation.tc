@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MSTC_02_DuplicateUserValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3bca4f74-21f6-4164-9eb8-b2d562a2a8b6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79e0665b-26c1-4cc3-9cd2-922471163039</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.'</defaultValue>
+      <description></description>
+      <id>79e0665b-26c1-4cc3-9cd2-922471163039</id>
+      <masked>false</masked>
+      <name>alert</name>
+   </variable>
+</TestCaseEntity>

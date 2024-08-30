@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>14808027-b90a-48c6-8f5c-8219e2ce2449</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44db808e-b0c5-433a-9a3b-7660175509e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a6a58bd-6093-4823-8d82-7f6ffba53b85</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3762e721-a88e-4144-a6d3-c2ec893bb31e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'You need to choose options for your item.'</defaultValue>
+      <description></description>
+      <id>44db808e-b0c5-433a-9a3b-7660175509e2</id>
+      <masked>false</masked>
+      <name>info</name>
+   </variable>
+   <variable>
+      <defaultValue>'You added Juno Jacket to your shopping cart.'</defaultValue>
+      <description></description>
+      <id>3a6a58bd-6093-4823-8d82-7f6ffba53b85</id>
+      <masked>false</masked>
+      <name>addtocart</name>
+   </variable>
+   <variable>
+      <defaultValue>' Juno Jaket'</defaultValue>
+      <description></description>
+      <id>3762e721-a88e-4144-a6d3-c2ec893bb31e</id>
+      <masked>false</masked>
+      <name>product</name>
+   </variable>
 </TestCaseEntity>

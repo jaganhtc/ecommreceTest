@@ -21,44 +21,41 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Home Page/a_Sign In'))
 
-WebUI.setText(findTestObject('null'), 'krishms@123.com')
+WebUI.setText(findTestObject('Object Repository/Page_Customer Login/input_Email_loginusername'), 'mskrish@123.com')
 
-WebUI.setEncryptedText(findTestObject('null'), 'sdGpgyGk7wy70wWFNp6bxA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Customer Login/input_Password_loginpassword'), 'sdGpgyGk7wy70wWFNp6bxA==')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Customer Login/span_Sign In'))
 
-WebUI.setText(findTestObject('null'), 'mskrish@123.com')
+WebUI.setText(findTestObject('Object Repository/Page_Home Page/input_Search_q'), 'juno jaket')
 
-WebUI.setEncryptedText(findTestObject('null'), 'sdGpgyGk7wy70wWFNp6bxA==')
+WebUI.click(findTestObject('Object Repository/Page_Home Page/li_Juno Jaket1'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Search results for Juno Jaket/div_M'))
 
-WebUI.setText(findTestObject('Object Repository/AddToCart/Page_Home Page/input_Search_q'), 'juno jackets')
+WebUI.click(findTestObject('Object Repository/Page_Search results for Juno Jaket/span_Add to Cart'))
 
-WebUI.click(findTestObject('Object Repository/AddToCart/Page_Home Page/div_Toggle NavMy Cart0        window.checko_e47d7c'))
+WebUI.click(findTestObject('Object Repository/Page_Juno Jacket/div_M'))
 
-WebUI.click(findTestObject('Object Repository/AddToCart/Page_Home Page/button_Search'))
+WebUI.click(findTestObject('Object Repository/Page_Juno Jacket/div_Color_option-label-color-93-item-53'))
 
-WebUI.setText(findTestObject('Object Repository/AddToCart/Page_Home Page/input_Search_q'), 'juno ja')
+WebUI.click(findTestObject('Object Repository/Page_Juno Jacket/span_Add to Cart'))
 
-WebUI.click(findTestObject('Object Repository/AddToCart/Page_Home Page/span_Juno Jaket'))
+WebUI.click(findTestObject('Object Repository/Page_Juno Jacket/span_1'))
 
-WebUI.click(findTestObject('Object Repository/AddToCart/Page_Search results for Juno Jaket/div_M'))
+WebUI.click(findTestObject('Object Repository/Page_Juno Jacket/button_Proceed to Checkout'))
 
-WebUI.click(findTestObject('Object Repository/AddToCart/Page_Search results for Juno Jaket/span_Add to Cart'))
+WebUI.click(findTestObject('Object Repository/Page_Checkout/span_Next'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/AddToCart/Page_Juno Jacket/div_You need to choose options for your item'), 
-    'You need to choose options for your item.')
+WebUI.click(findTestObject('Object Repository/Page_Checkout/input_Best Way_ko_unique_2'))
 
-WebUI.click(findTestObject('Object Repository/AddToCart/Page_Juno Jacket/div_L'))
+WebUI.click(findTestObject('Object Repository/Page_Checkout/span_Next'))
 
-WebUI.click(findTestObject('Object Repository/AddToCart/Page_Juno Jacket/span_Add to Cart'))
+WebUI.click(findTestObject('Object Repository/Page_Checkout/span_Place Order'))
 
-WebUI.click(findTestObject('Object Repository/AddToCart/Page_Juno Jacket/div_Color_option-label-color-93-item-50'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Success Page/span_Thank you for your purchase'), 'Thank you for your purchase!')
 
-WebUI.click(findTestObject('Object Repository/AddToCart/Page_Juno Jacket/span_Add to Cart'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/AddToCart/Page_Juno Jacket/a_My Cart11items'), 'My Cart\n\n1\n\n\n1\nitems')
+WebUI.click(findTestObject('Object Repository/Page_Success Page/span_Continue Shopping'))
 
