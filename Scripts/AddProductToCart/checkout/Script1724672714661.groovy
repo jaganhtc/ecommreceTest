@@ -97,7 +97,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Success Page/p_We
 
 WebUI.click(findTestObject('Object Repository/Page_Success Page/div_Skip to Content  Welcome, krish msChang_e9730d'))
 
-WebUI.click(findTestObject('Object Repository/Page_Success Page/button_Change'))
+WebUI.click(findTestObject('Object Repository/HomePage/button_Change'))
 
-WebUI.click(findTestObject('Object Repository/Page_Success Page/a_Sign Out'))
+WebUI.click(findTestObject('Object Repository/HomePage/a_Sign Out'))
 

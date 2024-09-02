@@ -49,22 +49,21 @@ class login {
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
 	@Given("I access the application")
-	def I_want_to_write_a_step_with_name(String url) {
+	def browseURL(String url) {
+		
+		WebUI.openBrowser(GlobalVariable.url)
 		println url
 	}
 
 	@When("I enter username and password")
-	def I_check_for_the_value_in_step(String username,String pwd) {
-		
+	def enterLoginCredntials(String username,String pwd) {
 	}
 
 	@And("I click on Login button")
-	def I_verify_the_status_in_step() {
-		
+	def clickLogin() {
 	}
-	
+
 	@Then("I should be able to view the dashboard")
-	def I_verify_the_status_in_step(String status) {
-		
+	def viewDashBoard(String status) {
 	}
 }
