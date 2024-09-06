@@ -31,7 +31,6 @@ public class MagnetoDemoKey {
 
 		WebUI.openBrowser(GlobalVariable.url)
 		WebUI.maximizeWindow()
-
 	}
 
 	@Keyword
@@ -104,7 +103,7 @@ public class MagnetoDemoKey {
 
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_My Wish List/button_Proceed to Checkout'), 0)
 
-		WebUI.takeScreenshot('C:\\Users\\Dell\\Katalon Studio\\MagentoSoftwareTestingBoard\\Screenshots\\Cart.PNG')
+		//WebUI.takeScreenshot('C:\\Users\\Dell\\Katalon Studio\\MagentoSoftwareTestingBoard\\Screenshots\\Cart.PNG')
 
 		WebUI.click(findTestObject('Object Repository/AddToCart/ModalPopup/Page_Home Page/btnClose'))
 	}

@@ -50,7 +50,7 @@ class login {
 	 */
 	@Given("I access the application")
 	def browseURL(String url) {
-		
+
 		WebUI.openBrowser(GlobalVariable.url)
 		println url
 	}
